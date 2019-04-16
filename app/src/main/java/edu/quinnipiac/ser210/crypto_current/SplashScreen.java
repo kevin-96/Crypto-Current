@@ -21,6 +21,6 @@ public class SplashScreen extends AppCompatActivity implements SplashScreenFragm
 
     @Override
     public void onFragmentInteraction(Uri uri) {
-
+        
     }
 }
