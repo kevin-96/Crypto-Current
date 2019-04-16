@@ -143,7 +143,6 @@ public class TabsActivity extends AppCompatActivity {
             switch (position) {
                 case 0: return new SingleConversion();
                 case 1: return new CustomConversion();
-                case 2: return new SingleConversion();
                 default: return new CustomConversion();
             }
         }
