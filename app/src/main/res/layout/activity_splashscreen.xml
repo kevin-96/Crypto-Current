@@ -12,5 +12,8 @@
         android:name="edu.quinnipiac.ser210.crypto_current.SplashScreenFragment"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
-
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="edu.quinnipiac.ser210.crypto_current.CoinRankFragment"/>
 </LinearLayout>
