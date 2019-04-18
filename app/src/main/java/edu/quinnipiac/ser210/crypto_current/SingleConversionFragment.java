@@ -13,10 +13,10 @@ import android.widget.Spinner;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CustomConversion extends Fragment {
+public class SingleConversionFragment extends Fragment {
 
 
-    public CustomConversion() {
+    public SingleConversionFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +25,7 @@ public class CustomConversion extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View layout = inflater.inflate(R.layout.fragment_custom_conversion, container, false);
+        View layout = inflater.inflate(R.layout.fragment_single_conversion, container, false);
 
         String[] coinSpinnerValues = new String[] {"BTC", "EUR"};
         Spinner coinSpinner = (Spinner) layout.findViewById(R.id.coinChooseSpinner);
