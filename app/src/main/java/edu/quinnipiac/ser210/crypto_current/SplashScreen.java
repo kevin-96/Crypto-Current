@@ -23,7 +23,7 @@ public class SplashScreen extends AppCompatActivity implements CoinRankFragment.
 
 
     public void onFragmentInteraction(Uri uri) {
-
+        
     }
 
     @Override
